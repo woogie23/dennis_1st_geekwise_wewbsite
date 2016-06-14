@@ -1,0 +1,93 @@
+/*=====================================GLOBAL STYLES BEGIN HERE======================================*/
+html, body{
+    height:100%;
+}
+
+body{
+    margin:10px;
+    padding:0px;
+    background-color: #FFFFFF;
+    font-family:'Trebuchet MS', Verdana, sans-serif ;
+    font-size:16px;
+    font-weight: 500px;
+    color:#000000;
+} 
+
+h1, h2, h3{
+    margin:10px;
+    padding:0px;
+    color:#8DC63F;
+}
+
+
+h1{
+    font-size:2em
+}
+
+p{
+    color:#a6a6a6;
+    margin:15px 0px;
+    line-height:20px;
+}
+
+a{
+    color:#FF7900;
+    text-decoration: none;
+    margin:10px;
+}
+
+a:hover{
+  color:#AEAEAE;  
+}
+
+
+/*===============================================GLOBAL STYLES END HERE=============================================*/
+
+
+/*===========================HEADER STYLES==================================*/
+
+header{
+    height:115px;
+    background-color:#F4F4F4;
+}
+logo{
+    color:#AEAEAE;
+}
+#logo:hover{
+    color:#FF7900;
+}
+
+/*======================BANNER STYLES========================*/
+
+
+#banner{
+    overflow:hidden;
+    padding:175px 0px;
+    border-top:6px solid #FF7900;
+    background-color:#AEAEAE;
+    background:url(../images/banner-home.jpg) no-repeat center center #FF7900;
+    background-size:cover;
+    
+}
+#bannerText{
+    color:#FFFFFF;
+    font-size:6em;
+    text-align:center;
+    text-shadow:6px 6px #000000;
+}
+
+
+
+
+
+
+
+
+
+    
+/*.column{*/
+/*    float:left;*/
+/*    clear:both;*/
+/*    margin:10px;*/
+/*}    */
+    
