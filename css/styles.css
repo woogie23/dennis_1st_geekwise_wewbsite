@@ -1,4 +1,7 @@
 /*=====================================GLOBAL STYLES BEGIN HERE======================================*/
+/*=================IMPORT FONT RESOURCE, THIS CASE GOOGLE FONT STYLES================*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300|Indie+Flower|Poiret+One|Dosis|Inconsolata);
+
 html, body{
     height:100%;
 }
@@ -17,37 +20,35 @@ h1, h2, h3{
     margin:10px;
     padding:0px;
     color:#8DC63F;
+    font-family: 'Poiret One', cursive;
 }
-
-
 h1{
-    font-size:2em
+    font-size:2em;
 }
-
 p{
     color:#a6a6a6;
     margin:15px 0px;
     line-height:20px;
+    font-family: 'Indie Flower', cursive;
 }
-
 a{
     color:#FF7900;
     text-decoration: none;
     margin:10px;
 }
-
 a:hover{
   color:#AEAEAE;  
 }
 
 figure{
   padding:25px;
+  margin-left:0px;
   background-color:#E9D1B9;
   display:inline-block;
   border-radius: 6px;
   /*PUTS SHADOW ON PICTURE FRAME*/
   /*box-shadow:6px 6px 6px #000000;*/
-  margin-left:0px;
+  
 }
 figcaption{
   text-align:center;  
@@ -59,6 +60,12 @@ main{
     width:1200px;
     overflow:hidden;
     margin:20px auto;
+}
+b, strong {
+    color:#FF0000;
+}
+mark{
+    padding:0px 13px;
 }
 
 /*===============================================GLOBAL STYLES END HERE=============================================*/
@@ -80,7 +87,7 @@ logo{
     color:#FF7900;
 }
 #top_button{
-    color:FFFFFF;
+    color:#FFFFFF;
     background-color:#000173;
     text-decoration:none;
     padding:10px 20px;
@@ -88,7 +95,7 @@ logo{
     float:right;
     clear:both;
     position:relative;
-    bottom:0px
+    bottom:0px;
     top:75px;
     right:48px;
     margin-right:250px;
@@ -177,9 +184,142 @@ logo{
 	color:#FFFFFF;
 	display: inline-block;
 	font-weight: 900;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 .button:hover{
 	background-color:#F7900;
 }
+/*===================================BUTTON STYLES===========================================*/
+.button{
+    font-size:1.8em;
+    background-color:#6666FF;
+    border-radius:8px;
+    padding:15px 30px;
+    text-decoration:none;
+    color:#FFFFFF;
+    display:inline-block;
+    font-weight:900;
+    position:relative;
+    /*left:100px;*/
+    /*text-align:center;*/
+}
+/*================================ABOUT ME SECTION=============================================*/
+.asideLeft{
+    float:left;
+    width:384px;
+    margin-right:24px;
+}    
+.asideRight{
+    float:right;
+    width:384px;
+    margin-left:24px;
+}
+.aboutMe{
+    float:right;
+    width:752px;
+}
+.aboutMe p{
+    text-align:justify;
+}
+.blogPost{
+    display:inline-block;
+    margin:25px 0px;
+}
 
+/*====================================FOOTER STYLES===============================*/
+footer{
+    /*height:60px;*/
+    padding:30px 0px;
+    margin-top:20px;
+    border-top:dotted 4px #009A49;
+    text-align:center;
+    background-color:#C8E8C6;
+}
+footer p{
+    color:#009A49;
+}
+footer a {
+    color:#FF7900;
+}
+
+
+
+
+/*========================================SOCIAL STYLES================================*/
+.social a{
+    color:#FFFFFF;
+}
+
+.fa{
+    background-color:rgb(141,198,63);
+    border:solid 3px #FFFFFF;
+    font-size:2em !important;
+    border-radius:100%;
+    width:28px;
+    height:28px;
+    padding:12px;
+    margin:0px 15px;
+}
+.fa-facebook{
+    background-color:#3b5998;
+}
+.fa-facebook:hover{
+    background-color:#7e97cd;
+}
+.fa-twitter{
+    background-color:#55acee;
+}
+.fa-twitter:hover{
+    background-color:#a2d2f6;
+}
+.fa-instagram{
+    background-color:#e95950;
+}
+.fa-instagram:hover{
+    background-color:#ee7f77;
+}
+.fa-github{
+    background-color:#000000;
+}
+.fa-github:hover{
+    background-color:#737373;
+}
+.fa-linkedin{
+    background-color:#007bb5;
+}
+
+/*========================================MISC STYLES BELOW==========================BEWARE*/
+#videoStretcher{
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0px;
+    overflow:hidden;
+}
+#videoStretcher iframe, #videoStretcher embed{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+/*========================================16X9 9/16= .5625 56.25%     YOUTUBE PADDING BASED ON THIS ASPECT RATIO=============================*/
     
+.maps{
+    /*display:block;*/
+    /*margin:auto;*/
+    
+    width:90%;
+    margin:0 auto;
+    display:block;
+}
+
+#wufoo-z1orn1311nech4g{
+    background-color:#aeaeae;
+    border:solid 3px #000000;
+    border-radius:8px;
+    width:90%;
+    margin:25px auto;
+    padding:20px;
+}
+
